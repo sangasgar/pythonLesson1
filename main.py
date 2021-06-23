@@ -66,12 +66,12 @@ else:
 # 4-й день: 2,66
 # 5-й день: 2,93
 # 6-й день: 3,22
-st = float(input("Напишите начало: "))
-fi = float(input("Напишите конец: "))
+start = float(input("Напишите начало: "))
+finish = float(input("Напишите конец: "))
 day = 1
-if st > fi:
+if start > finish:
     print(day)
-while st < fi:
-    st = st + st/10
+while start < finish:
+    start = start + start/10
     day += 1
 print(day)
